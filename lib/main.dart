@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:knightai/pallete.dart';
-import 'home_page.dart';
+import 'package:knightai/home_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,10 +15,11 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'KnightAI',
       theme: ThemeData.light(useMaterial3: true).copyWith(
-          scaffoldBackgroundColor: Pallete.whiteColor,
-          appBarTheme: const AppBarTheme(
-            backgroundColor: Pallete.whiteColor,
-          )),
+        scaffoldBackgroundColor: Pallete.whiteColor,
+        appBarTheme: const AppBarTheme(
+          backgroundColor: Pallete.whiteColor,
+        ),
+      ),
       home: const HomePage(),
     );
   }

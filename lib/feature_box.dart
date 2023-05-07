@@ -15,7 +15,10 @@ class FeatureBox extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      margin: const EdgeInsets.symmetric(horizontal: 35, vertical: 10),
+      margin: const EdgeInsets.symmetric(
+        horizontal: 35,
+        vertical: 10,
+      ),
       decoration: BoxDecoration(
         color: color,
         borderRadius: const BorderRadius.all(
@@ -23,36 +26,36 @@ class FeatureBox extends StatelessWidget {
         ),
       ),
       child: Padding(
-        padding: const EdgeInsets.symmetric(vertical: 20).copyWith(
+        padding: const EdgeInsets.symmetric(vertical: 20.0).copyWith(
           left: 15,
         ),
-        child: Column(children: [
-          Align(
-            alignment: Alignment.centerLeft,
-            child: Text(
-              headerText,
-              style: const TextStyle(
-                fontFamily: 'Cera Pro',
-                color: Pallete.blackColor,
-                fontSize: 18,
-                fontWeight: FontWeight.bold,
+        child: Column(
+          children: [
+            Align(
+              alignment: Alignment.centerLeft,
+              child: Text(
+                headerText,
+                style: const TextStyle(
+                  fontFamily: 'Cera Pro',
+                  color: Pallete.blackColor,
+                  fontSize: 18,
+                  fontWeight: FontWeight.bold,
+                ),
               ),
             ),
-          ),
-          const SizedBox(
-            height: 3,
-          ),
-          Padding(
-            padding: const EdgeInsets.only(right: 20),
-            child: Text(
-              descriptionText,
-              style: const TextStyle(
-                fontFamily: 'Cera Pro',
-                color: Pallete.blackColor,
+            const SizedBox(height: 3),
+            Padding(
+              padding: const EdgeInsets.only(right: 20),
+              child: Text(
+                descriptionText,
+                style: const TextStyle(
+                  fontFamily: 'Cera Pro',
+                  color: Pallete.blackColor,
+                ),
               ),
             ),
-          ),
-        ]),
+          ],
+        ),
       ),
     );
   }

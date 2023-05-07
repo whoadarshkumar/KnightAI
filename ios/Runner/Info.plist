@@ -47,5 +47,11 @@
 	<true/>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>It will record Your Voice in order to process the results.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Mircrphone access is required in order to process your results.</string>
+	<key>NSSpeechSynthesizerUsageDescription</key>	
+	<string>Main</string>
 </dict>
 </plist>
