@@ -1,16 +1,46 @@
-# knightai
+KnightAI
 
-A new Flutter project.
+KnightAI is a personal assistant powered by ChatGPT and DALL-E API. It can generate AI images and speed up the results given by ChatGPT.
 
-## Getting Started
+Table of Contents
 
-This project is a starting point for a Flutter application.
+Installation
+Usage
+Features
+Contributing
+License
+Installation
 
-A few resources to get you started if this is your first Flutter project:
+Clone the repository to your local machine:
+bash
+Copy code
+git clone https://github.com/username/KnightAI.git
+Change directory to the project folder:
+bash
+Copy code
+cd KnightAI
+Install the dependencies using Flutter:
+arduino
+Copy code
+flutter pub get
+Run the app on an emulator or physical device:
+arduino
+Copy code
+flutter run
+Usage
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Once the app is running, simply type in your query or command and hit send. KnightAI will use ChatGPT to generate a response and DALL-E API to generate an image if needed. The app also includes a speech-to-text feature that allows you to use your voice to interact with KnightAI.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Features
+
+ChatGPT integration for natural language processing
+DALL-E API integration for image generation
+Speech-to-text feature for voice interaction
+Responsive UI design
+Contributing
+
+We welcome contributions from the community! Please create a pull request with your changes and we will review it as soon as possible.
+
+License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
